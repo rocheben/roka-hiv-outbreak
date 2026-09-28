@@ -1,0 +1,152 @@
+model;final_tolerance;parameter;unit;q2.5;median;q97.5
+Index case;6.32;Transmission HIV per injection (contaminated material);probability;0.00144;0.00675;0.0648
+Index case;6.32;Transmission HCV per injection (contaminated material);probability;0.00653;0.0498;0.449
+Index case;6.32;HIV persistence in syringe;days;2.49;29.1;85.2
+Index case;6.32;HCV persistence in syringe;days;0.675;10.3;82.1
+Index case;6.32;Syringe contamination by acute HIV patient;probability;0.00238;0.0626;0.739
+Index case;6.32;Syringe contamination by chronic HIV patient;probability;0.00699;0.104;0.968
+Index case;6.32;Syringe contamination by HCV patient;probability;0.00572;0.185;0.84
+Index case;6.32;Interval between injections, <15 years;days;1.93;9.15;59.2
+Index case;6.32;Interval between injections, 15-64 years;days;1.35;6.47;41.2
+Index case;6.32;Interval between injections, >=65 years;days;1.23;2.72;30.1
+Index case;6.32;Start of HIV transmission;date;2012-06-27;2013-03-09;2013-11-16
+Index case;6.32;Start of HCV transmission;date;2012-06-28;2013-12-02;2014-05-06
+Index case;6.32;Sexual transmission rate, acute HIV;per year per pair;7.85e-05;0.000905;0.0196
+Index case;6.32;Sexual transmission rate, chronic HIV;per year per pair;5.39e-05;0.000767;0.00365
+Index case;6.32;Number of syringes;count;1.24;5.69;64
+Frequent-patient index case;5.58;Transmission HIV per injection (contaminated material);probability;0.00241;0.0183;0.274
+Frequent-patient index case;5.58;Transmission HCV per injection (contaminated material);probability;0.0115;0.146;0.878
+Frequent-patient index case;5.58;HIV persistence in syringe;days;5.24;24.8;78
+Frequent-patient index case;5.58;HCV persistence in syringe;days;0.854;12.1;86.6
+Frequent-patient index case;5.58;Syringe contamination by acute HIV patient;probability;0.00128;0.0457;0.908
+Frequent-patient index case;5.58;Syringe contamination by chronic HIV patient;probability;0.00387;0.215;0.942
+Frequent-patient index case;5.58;Syringe contamination by HCV patient;probability;0.0012;0.00516;0.713
+Frequent-patient index case;5.58;Interval between injections, <15 years;days;2.44;22.1;217
+Frequent-patient index case;5.58;Interval between injections, 15-64 years;days;1.73;16.5;161
+Frequent-patient index case;5.58;Interval between injections, >=65 years;days;1.28;4.81;58.5
+Frequent-patient index case;5.58;Interval between injections, index case;days;0.574;1.89;18.1
+Frequent-patient index case;5.58;Start of HIV transmission;date;2013-09-16;2014-01-18;2014-04-09
+Frequent-patient index case;5.58;Start of HCV transmission;date;2013-06-11;2014-11-28;2016-01-20
+Frequent-patient index case;5.58;Sexual transmission rate, acute HIV;per year per pair;8.29e-05;0.00135;0.00976
+Frequent-patient index case;5.58;Sexual transmission rate, chronic HIV;per year per pair;5.13e-05;0.000813;0.0036
+Frequent-patient index case;5.58;Number of syringes;count;1;3.52;16.2
+Frequent-patient index case;5.58;Pre-existing HCV prevalence;fraction;0.0137;0.101;0.174
+Frequent-patient index case;5.58;Stop of injections;date;2014-11-06;2014-11-28;2014-12-20
+Index case with multidose vials;5.94;Transmission HIV per injection (contaminated material);probability;0.0023;0.013;0.0499
+Index case with multidose vials;5.94;Transmission HCV per injection (contaminated material);probability;0.0149;0.111;0.64
+Index case with multidose vials;5.94;HIV persistence in syringe;days;0.203;4.18;69.5
+Index case with multidose vials;5.94;HCV persistence in syringe;days;0.238;4.02;63.9
+Index case with multidose vials;5.94;Syringe contamination by acute HIV patient;probability;0.00167;0.0127;0.603
+Index case with multidose vials;5.94;Syringe contamination by chronic HIV patient;probability;0.113;0.504;0.918
+Index case with multidose vials;5.94;Syringe contamination by HCV patient;probability;0.00145;0.00618;0.515
+Index case with multidose vials;5.94;Interval between injections, <15 years;days;2.85;10.2;45.3
+Index case with multidose vials;5.94;Interval between injections, 15-64 years;days;2.35;5.99;24.2
+Index case with multidose vials;5.94;Interval between injections, >=65 years;days;1.25;2.48;10.3
+Index case with multidose vials;5.94;Start of HIV transmission;date;2013-02-21;2013-12-04;2014-04-01
+Index case with multidose vials;5.94;Start of HCV transmission;date;2012-03-07;2014-07-18;2016-01-22
+Index case with multidose vials;5.94;Sexual transmission rate, acute HIV;per year per pair;5.32e-05;0.000568;0.00999
+Index case with multidose vials;5.94;Sexual transmission rate, chronic HIV;per year per pair;7.06e-05;0.00028;0.00285
+Index case with multidose vials;5.94;Number of syringes;count;1.76;28.1;720
+Index case with multidose vials;5.94;Fraction of injections from vials;fraction;0.185;0.54;0.952
+Index case with multidose vials;5.94;Pre-existing HCV prevalence;fraction;0.00357;0.0581;0.266
+Index case with multidose vials;5.94;Stop of injections;date;2014-10-26;2014-11-27;2014-12-24
+Index case with multidose vials;5.94;Number of multidose vials;count;1.02;2.78;19.2
+Index case with multidose vials;5.94;Duration of use of a contaminated vial;days;0.657;18.2;73.4
+Frequent-patient index case with multidose vials;5.58;Transmission HIV per injection (contaminated material);probability;0.00342;0.0353;0.317
+Frequent-patient index case with multidose vials;5.58;Transmission HCV per injection (contaminated material);probability;0.0383;0.294;0.787
+Frequent-patient index case with multidose vials;5.58;HIV persistence in syringe;days;0.43;9.46;97.7
+Frequent-patient index case with multidose vials;5.58;HCV persistence in syringe;days;0.303;6.57;85.9
+Frequent-patient index case with multidose vials;5.58;Syringe contamination by acute HIV patient;probability;0.00253;0.0389;0.894
+Frequent-patient index case with multidose vials;5.58;Syringe contamination by chronic HIV patient;probability;0.0583;0.404;0.914
+Frequent-patient index case with multidose vials;5.58;Syringe contamination by HCV patient;probability;0.00118;0.0138;0.591
+Frequent-patient index case with multidose vials;5.58;Interval between injections, <15 years;days;4.91;28.2;220
+Frequent-patient index case with multidose vials;5.58;Interval between injections, 15-64 years;days;3.62;17.6;117
+Frequent-patient index case with multidose vials;5.58;Interval between injections, >=65 years;days;1.01;6.27;48.2
+Frequent-patient index case with multidose vials;5.58;Interval between injections, index case;days;0.528;2.05;7.93
+Frequent-patient index case with multidose vials;5.58;Start of HIV transmission;date;2013-06-15;2013-12-04;2014-04-09
+Frequent-patient index case with multidose vials;5.58;Start of HCV transmission;date;2013-11-06;2014-12-03;2015-09-11
+Frequent-patient index case with multidose vials;5.58;Sexual transmission rate, acute HIV;per year per pair;5.22e-05;0.0014;0.0144
+Frequent-patient index case with multidose vials;5.58;Sexual transmission rate, chronic HIV;per year per pair;5.8e-05;0.000545;0.00292
+Frequent-patient index case with multidose vials;5.58;Number of syringes;count;1.51;7.37;515
+Frequent-patient index case with multidose vials;5.58;Fraction of injections from vials;fraction;0.00174;0.531;0.962
+Frequent-patient index case with multidose vials;5.58;Pre-existing HCV prevalence;fraction;0.00387;0.0604;0.245
+Frequent-patient index case with multidose vials;5.58;Stop of injections;date;2014-11-01;2014-11-22;2014-12-21
+Frequent-patient index case with multidose vials;5.58;Number of multidose vials;count;1.09;5.98;22.5
+Frequent-patient index case with multidose vials;5.58;Duration of use of a contaminated vial;days;5.06;33;80.5
+Frequent-patient index case, biological constraints;6.32;Transmission HIV per injection (contaminated material);probability;0.00274;0.0193;0.301
+Frequent-patient index case, biological constraints;6.32;Transmission HCV per injection (contaminated material);probability;0.0116;0.0705;0.882
+Frequent-patient index case, biological constraints;6.32;HIV persistence in syringe;days;0.78;10.4;63.6
+Frequent-patient index case, biological constraints;6.32;HCV persistence in syringe;days;9.21;34.1;94
+Frequent-patient index case, biological constraints;6.32;Syringe contamination by acute HIV patient;probability;0.0515;0.533;0.942
+Frequent-patient index case, biological constraints;6.32;Syringe contamination by chronic HIV patient;probability;0.00415;0.104;0.548
+Frequent-patient index case, biological constraints;6.32;Syringe contamination by HCV patient;probability;0.00133;0.00689;0.443
+Frequent-patient index case, biological constraints;6.32;Interval between injections, <15 years;days;4.99;16.5;200
+Frequent-patient index case, biological constraints;6.32;Interval between injections, 15-64 years;days;2.46;10;136
+Frequent-patient index case, biological constraints;6.32;Interval between injections, >=65 years;days;1.23;4.55;48.8
+Frequent-patient index case, biological constraints;6.32;Interval between injections, index case;days;0.531;1.17;12.9
+Frequent-patient index case, biological constraints;6.32;Start of HIV transmission;date;2013-07-11;2014-01-05;2014-04-12
+Frequent-patient index case, biological constraints;6.32;Sexual transmission rate, acute HIV;per year per pair;4.16e-05;0.00136;0.0183
+Frequent-patient index case, biological constraints;6.32;Sexual transmission rate, chronic HIV;per year per pair;7.09e-05;0.000333;0.00381
+Frequent-patient index case, biological constraints;6.32;Number of syringes;count;1.1;2.11;51.6
+Frequent-patient index case, biological constraints;6.32;Pre-existing HCV prevalence;fraction;0.00587;0.0924;0.259
+Frequent-patient index case, biological constraints;6.32;Stop of injections;date;2014-10-28;2014-11-25;2014-12-27
+Frequent-patient index case with multidose vials, biological constraints;5.58;Transmission HIV per injection (contaminated material);probability;0.00638;0.0222;0.0932
+Frequent-patient index case with multidose vials, biological constraints;5.58;Transmission HCV per injection (contaminated material);probability;0.0345;0.114;0.732
+Frequent-patient index case with multidose vials, biological constraints;5.58;HIV persistence in syringe;days;0.273;0.95;14.3
+Frequent-patient index case with multidose vials, biological constraints;5.58;HCV persistence in syringe;days;1.25;16.8;69.8
+Frequent-patient index case with multidose vials, biological constraints;5.58;Syringe contamination by acute HIV patient;probability;0.106;0.455;0.98
+Frequent-patient index case with multidose vials, biological constraints;5.58;Syringe contamination by chronic HIV patient;probability;0.00386;0.0492;0.496
+Frequent-patient index case with multidose vials, biological constraints;5.58;Syringe contamination by HCV patient;probability;0.00103;0.011;0.0826
+Frequent-patient index case with multidose vials, biological constraints;5.58;Interval between injections, <15 years;days;6.43;16.3;58.5
+Frequent-patient index case with multidose vials, biological constraints;5.58;Interval between injections, 15-64 years;days;4.94;9.43;39.8
+Frequent-patient index case with multidose vials, biological constraints;5.58;Interval between injections, >=65 years;days;1.63;3.37;15.4
+Frequent-patient index case with multidose vials, biological constraints;5.58;Interval between injections, index case;days;0.618;3.14;91.1
+Frequent-patient index case with multidose vials, biological constraints;5.58;Start of HIV transmission;date;2013-07-05;2013-12-19;2014-03-24
+Frequent-patient index case with multidose vials, biological constraints;5.58;Sexual transmission rate, acute HIV;per year per pair;6.33e-05;0.00101;0.0081
+Frequent-patient index case with multidose vials, biological constraints;5.58;Sexual transmission rate, chronic HIV;per year per pair;7.39e-05;0.000666;0.00293
+Frequent-patient index case with multidose vials, biological constraints;5.58;Number of syringes;count;2.04;13;384
+Frequent-patient index case with multidose vials, biological constraints;5.58;Fraction of injections from vials;fraction;0.216;0.674;0.962
+Frequent-patient index case with multidose vials, biological constraints;5.58;Pre-existing HCV prevalence;fraction;0.00623;0.0674;0.172
+Frequent-patient index case with multidose vials, biological constraints;5.58;Stop of injections;date;2014-11-01;2014-11-16;2014-12-30
+Frequent-patient index case with multidose vials, biological constraints;5.58;Number of multidose vials;count;1.18;3.79;8.92
+Frequent-patient index case with multidose vials, biological constraints;5.58;Duration of use of a contaminated vial;days;3.15;25.3;66.3
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Transmission HIV per injection (contaminated material);probability;0.00386;0.0227;0.379
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Transmission HCV per injection (contaminated material);probability;0.0203;0.125;0.913
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;HIV persistence in syringe;days;0.247;1.2;89.8
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;HCV persistence in syringe;days;1.2;8.35;99.6
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Syringe contamination by acute HIV patient;probability;0.107;0.384;0.894
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Syringe contamination by chronic HIV patient;probability;0.00345;0.0984;0.523
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Syringe contamination by HCV patient;probability;0.00112;0.00383;0.0437
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Interval between injections, <15 years;days;2.34;24.1;185
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Interval between injections, 15-64 years;days;1.63;14.2;160
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Interval between injections, >=65 years;days;1.1;5.15;31.6
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Interval between injections, index case;days;3.16;6.42;29.6
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Start of HIV transmission;date;2012-12-08;2013-09-24;2014-03-09
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Sexual transmission rate, acute HIV;per year per pair;7.74e-05;0.000926;0.0143
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Sexual transmission rate, chronic HIV;per year per pair;8.67e-05;0.000491;0.00398
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Number of syringes;count;1.09;9.33;436
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Fraction of injections from vials;fraction;0.474;0.734;0.98
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Pre-existing HCV prevalence;fraction;0.018;0.0937;0.196
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Stop of injections;date;2014-11-04;2014-11-21;2014-12-20
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Number of multidose vials;count;1.13;2.71;14.3
+Index case injected at most every 3 days, multidose vials, biological constraints;6.72;Duration of use of a contaminated vial;days;1.37;14.3;81.1
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Transmission HIV per injection (contaminated material);probability;0.00227;0.012;0.0495
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Transmission HCV per injection (contaminated material);probability;0.0108;0.0942;0.512
+Index case injected at most weekly, multidose vials, biological constraints;7.15;HIV persistence in syringe;days;0.302;1.31;9.72
+Index case injected at most weekly, multidose vials, biological constraints;7.15;HCV persistence in syringe;days;1.37;12.7;88.7
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Syringe contamination by acute HIV patient;probability;0.242;0.608;0.946
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Syringe contamination by chronic HIV patient;probability;0.00259;0.147;0.629
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Syringe contamination by HCV patient;probability;0.00102;0.00375;0.0547
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Interval between injections, <15 years;days;2.51;11.3;89.1
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Interval between injections, 15-64 years;days;2.3;5.47;31.5
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Interval between injections, >=65 years;days;1.15;2.88;11.2
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Interval between injections, index case;days;7.56;22.7;241
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Start of HIV transmission;date;2012-02-12;2013-09-29;2014-03-30
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Sexual transmission rate, acute HIV;per year per pair;4.44e-05;0.00033;0.00237
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Sexual transmission rate, chronic HIV;per year per pair;4.66e-05;0.000798;0.00421
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Number of syringes;count;7.66;115;695
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Fraction of injections from vials;fraction;0.24;0.714;0.997
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Pre-existing HCV prevalence;fraction;0.00711;0.0689;0.201
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Stop of injections;date;2014-11-07;2014-12-03;2014-12-25
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Number of multidose vials;count;1.11;3.87;17.4
+Index case injected at most weekly, multidose vials, biological constraints;7.15;Duration of use of a contaminated vial;days;5.49;24.5;73.4

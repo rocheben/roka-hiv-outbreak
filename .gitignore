@@ -1,0 +1,12 @@
+# documents (manuscrit, Supplementary Materials) et leur génération
+*.docx
+code/manuscript/
+# hors article
+old/
+last/
+# fichiers locaux
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+resultats/abc/test/

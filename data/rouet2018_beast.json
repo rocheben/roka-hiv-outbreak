@@ -1,0 +1,14 @@
+{
+  "_source": "Rouet F, Nouhin J, Zheng DP, et al. Massive iatrogenic outbreak of HIV-1 in rural Cambodia, 2014-2015. Clin Infect Dis 2018;66(11):1733-41, texte principal et Supplementary Appendix. Dates publiees au mois pres ; placees au 15 du mois pour les calculs.",
+  "hiv_tmrca": {"mean": "2013-09", "hpd_low": "2012-08", "hpd_high": "2014-07", "n_sequences": 198},
+  "hiv_ltt_rise": "2014-05",
+  "hiv_ltt_peak": "2014-09",
+  "hiv_ltt_peak_per_day": 15,
+  "hcv_1b_tmrca": {"mean": "2012-02", "hpd_low": "2007-12", "hpd_high": "2014-08", "n_sequences": 34},
+  "hcv_6e_cluster2_tmrca": {"mean": "2002-11", "hpd_low": "1991-08", "hpd_high": "2010-10", "n_sequences": 35},
+  "hcv_6e_cluster3_tmrca": {"mean": "2003-02", "hpd_low": "1991-02", "hpd_high": "2011-06", "n_sequences": 16},
+  "hiv_clock_prior": {"mean": 4.1e-3, "hpd_low": 2.4e-3, "hpd_high": 6.0e-3, "sd": 9.30e-4},
+  "hcv_clock": {"mean": 2.4e-3, "hpd_low": 0.7e-3, "hpd_high": 4.3e-3, "sd": 9.21e-4},
+  "hiv_recent_lt130d": [79, 209],
+  "hcv_recent_lt6mo": [59, 153]
+}

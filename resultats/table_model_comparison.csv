@@ -1,0 +1,7 @@
+model;lowest_tolerance;P(model) at eps=6.32;P(model) at eps=5.58
+Index case;6.32;0.107;nan
+Frequent-patient index case;5.58;0.079;0.179
+Index case with multidose vials;5.94;0.073;nan
+Frequent-patient index case with multidose vials;5.58;0.034;0.101
+Frequent-patient index case, biological constraints;6.32;0.274;nan
+Frequent-patient index case with multidose vials, biological constraints;5.58;0.433;0.719

@@ -1,0 +1,43 @@
+{
+ "_source": "Dates de pr\u00e9l\u00e8vement des 203 s\u00e9quences env de Roka (data/sequences/env_roka_controls_aligned.fasta), en jours avant le 28 janvier 2015. Utilis\u00e9es comme distribution des dates de test.",
+ "days_before_last": [
+  0,
+  9,
+  14,
+  15,
+  20,
+  22,
+  28,
+  30,
+  33,
+  35,
+  36,
+  37,
+  40,
+  41,
+  42,
+  43,
+  44,
+  48
+ ],
+ "counts": [
+  3,
+  1,
+  1,
+  2,
+  3,
+  4,
+  2,
+  7,
+  5,
+  4,
+  6,
+  20,
+  14,
+  20,
+  25,
+  34,
+  50,
+  2
+ ]
+}

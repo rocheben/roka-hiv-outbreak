@@ -1,0 +1,9 @@
+{
+ "_source": "199 s\u00e9quences env C2V3 du cluster \u00e9pid\u00e9mique (data/sequences/hiv_cluster.fasta), sites avec au moins 80% de bases A/C/G/T.",
+ "n_sequences": 199,
+ "alignment_length": 923,
+ "effective_length": 336,
+ "segregating_sites": 55,
+ "singletons_folded": 23,
+ "mean_pairwise_differences": 2.1090299984772347
+}

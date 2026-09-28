@@ -1,0 +1,21 @@
+parameter;unit;q2.5;median;q97.5
+beta_H;probability;0.006379;0.02216;0.09325
+beta_C;probability;0.03455;0.1142;0.7321
+sigma_H;days;0.2733;0.9501;14.32
+sigma_C;days;1.247;16.85;69.82
+omega_A;probability;0.1062;0.4553;0.9804
+omega_U;probability;0.003856;0.04921;0.496
+omega_C;probability;0.001026;0.01105;0.08258
+g1;days;6.433;16.33;58.48
+g2;days;4.935;9.435;39.82
+g3;days;1.632;3.374;15.45
+t_max;date;2013-07-05;2013-12-19;2014-03-24
+b_SI;per year per pair;6.332e-05;0.001013;0.008104
+b_SU;per year per pair;7.386e-05;0.0006655;0.002927
+n_syr;count;2.043;13.02;384.4
+gam_idx;days;0.6183;3.136;91.14
+pi;fraction;0.2162;0.6743;0.9617
+n_vial;count;1.178;3.794;8.917
+vial_life;days;3.154;25.34;66.26
+p_C0;fraction;0.00623;0.0674;0.1723
+stop_d;date;2014-11-01;2014-11-16;2014-12-30

@@ -1,0 +1,7 @@
+# Versions avec lesquelles les résultats ont été produits.
+# numpy >= 2 est obligatoire : les fichiers resultats/abc/*.pkl ne se lisent pas avec numpy 1.x.
+numpy>=2.0,<3
+scipy>=1.13
+numba>=0.60
+matplotlib>=3.8
+dendropy>=5.0

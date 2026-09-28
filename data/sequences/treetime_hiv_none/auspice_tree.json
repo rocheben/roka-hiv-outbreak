@@ -1,0 +1,8720 @@
+{
+"meta": {
+"title": "Auspice visualization of TreeTime (v0.12.1) analysis",
+"build_url": "https://github.com/neherlab/treetime",
+"last_updated": "2026-09-28",
+"treetime_version": "0.12.1",
+"genome_annotations": {
+"nuc": {
+"start": 1,
+"end": 923,
+"type": "source",
+"strand": "+:"
+}
+},
+"panels": [
+"tree",
+"entropy"
+],
+"colorings": [
+{
+"title": "Date",
+"type": "continuous",
+"key": "num_date"
+},
+{
+"title": "Genotype",
+"type": "categorical",
+"key": "gt"
+},
+{
+"title": "Excluded",
+"type": "categorical",
+"key": "bad_branch"
+},
+{
+"title": "Branch Support",
+"type": "continuous",
+"key": "confidence"
+}
+],
+"display_defaults": {
+"color_by": "bad_branch"
+},
+"filters": [
+"bad_branch"
+]
+},
+"tree": {
+"name": "NODE_0000000",
+"node_attrs": {
+"num_date": {
+"value": 2012.3302500461984,
+"confidence": [
+2011.659461676705,
+2013.6985741820301
+]
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS124_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.004806629113646668,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A178G",
+"A412G"
+]
+}
+}
+},
+{
+"name": "NCHADS114_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000002",
+"node_attrs": {
+"num_date": {
+"value": 2012.620318112989,
+"confidence": [
+2012.0967163935418,
+2013.7946140814563
+]
+},
+"div": 0.002608652182460234,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C261G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS141_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.006410618329483662,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G283T",
+"A412G",
+"T513C"
+]
+}
+}
+},
+{
+"name": "NODE_0000003",
+"node_attrs": {
+"num_date": {
+"value": 2014.5039817073562,
+"confidence": [
+2013.7497343910368,
+2014.954794520548
+]
+},
+"div": 0.00421522893264337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T126C",
+"T513C",
+"T519A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS069_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.00421522893264337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000004",
+"node_attrs": {
+"num_date": {
+"value": 2014.7192532553756,
+"confidence": [
+2014.2246762972684,
+2014.954794520548
+]
+},
+"div": 0.00421522893264337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS089_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.00421522893264337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000005",
+"node_attrs": {
+"num_date": {
+"value": 2014.8643089925608,
+"confidence": [
+2014.528290685471,
+2014.9739726027397
+]
+},
+"div": 0.00421522893264337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS192_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.00421522893264337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000006",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.7466377444312,
+2014.9739726027397
+]
+},
+"div": 0.00421522893264337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS193_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.00421522893264337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS200_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9767123287672,
+"confidence": [
+2014.9767123287672,
+2014.9767123287672
+]
+},
+"div": 0.00421522893264337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000008",
+"node_attrs": {
+"num_date": {
+"value": 2012.8460707146994,
+"confidence": [
+2012.3981289434487,
+2013.869213099079
+]
+},
+"div": 0.007442543844671511,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T516C"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS113_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.013922265264421703,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C236T",
+"A562C",
+"C605A",
+"C644T"
+]
+}
+}
+},
+{
+"name": "NCHADS064_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.01404064652999465,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A38T",
+"T39G",
+"G313A",
+"A444G",
+"-534T",
+"-535A",
+"-536A"
+]
+}
+}
+},
+{
+"name": "NCHADS174_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.013974613549071006,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C8T",
+"A105T",
+"A392G",
+"T489C",
+"A558-",
+"A559-",
+"C560-",
+"A561-",
+"A562-",
+"C563-"
+]
+}
+}
+},
+{
+"name": "NODE_0000009",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2013.667000901664,
+2014.9575342465753
+]
+},
+"div": 0.007442543844671511,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS155_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.007442543844671511,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS007_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.007442543844671511,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000013",
+"node_attrs": {
+"num_date": {
+"value": 2013.0012111770693,
+"confidence": [
+2012.5961043971836,
+2013.9394801801848
+]
+},
+"div": 0.009048940603512037,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A260G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS105_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.012313786963331306,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A542T",
+"C543T",
+"-547C",
+"-548A",
+"-549T"
+]
+}
+}
+},
+{
+"name": "NODE_0000011",
+"node_attrs": {
+"num_date": {
+"value": 2014.4339444769937,
+"confidence": [
+2013.3582387509666,
+2014.9575342465753
+]
+},
+"div": 0.009048940603512037,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS135_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.009048940603512037,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000012",
+"node_attrs": {
+"num_date": {
+"value": 2014.7646319925257,
+"confidence": [
+2014.166877828074,
+2014.9575342465753
+]
+},
+"div": 0.009048940603512037,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS029_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.009048940603512037,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000014",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.5856290179713,
+2014.9575342465753
+]
+},
+"div": 0.009048940603512037,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS147_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.009048940603512037,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS028_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.009048940603512037,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000018",
+"node_attrs": {
+"num_date": {
+"value": 2013.118086021554,
+"confidence": [
+2012.731919273755,
+2013.9874415650888
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A444C"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS182_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.012528529124569199,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A293G"
+]
+}
+}
+},
+{
+"name": "NODE_0000112",
+"node_attrs": {
+"num_date": {
+"value": 2014.3747161312533,
+"confidence": [
+2013.9369068465635,
+2014.763572643233
+]
+},
+"div": 0.013866852968416488,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A15T",
+"A412G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS115_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.015752201231406575,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T397G"
+]
+}
+}
+},
+{
+"name": "NCHADS145_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.01575706358117338,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C425A"
+]
+}
+}
+},
+{
+"name": "NCHADS075_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.015750417189957653,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A384T"
+]
+}
+}
+},
+{
+"name": "NCHADS006_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.017729501704259597,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T513C",
+"C516T"
+]
+}
+}
+},
+{
+"name": "NODE_0000019",
+"node_attrs": {
+"num_date": {
+"value": 2014.7094312514682,
+"confidence": [
+2014.25642377658,
+2014.9575342465753
+]
+},
+"div": 0.013866852968416488,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS027_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.013866852968416488,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000021",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.6369107278965,
+2014.9657534246576
+]
+},
+"div": 0.013866852968416488,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS164_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.013866852968416488,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS229_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0369863013698,
+"confidence": [
+2015.0369863013698,
+2015.0369863013698
+]
+},
+"div": 0.013866852968416488,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000076",
+"node_attrs": {
+"num_date": {
+"value": 2013.9747928557697,
+"confidence": [
+2013.4667339245518,
+2014.6910670746154
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G282A",
+"A576G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS082_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000077",
+"node_attrs": {
+"num_date": {
+"value": 2014.3616199653206,
+"confidence": [
+2013.9531693355543,
+2014.814285037871
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G260A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS055_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.017410539459810716,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A176T"
+]
+}
+}
+},
+{
+"name": "NCHADS137_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.019277923115902533,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T126C",
+"T474A"
+]
+}
+}
+},
+{
+"name": "NODE_0000028",
+"node_attrs": {
+"num_date": {
+"value": 2014.5484565140387,
+"confidence": [
+2014.021502476774,
+2014.9438356164383
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS109_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9438356164383,
+"confidence": [
+2014.9438356164383,
+2014.9438356164383
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000029",
+"node_attrs": {
+"num_date": {
+"value": 2014.6899672625743,
+"confidence": [
+2014.2951336300525,
+2014.954794520548
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS005_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000030",
+"node_attrs": {
+"num_date": {
+"value": 2014.7991326971587,
+"confidence": [
+2014.5084326601252,
+2014.954794520548
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS072_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000031",
+"node_attrs": {
+"num_date": {
+"value": 2014.887605315255,
+"confidence": [
+2014.681230465217,
+2014.954794520548
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS104_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000032",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.8114775832432,
+2014.9602739726026
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS119_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS195_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.015472287674534797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000123",
+"node_attrs": {
+"num_date": {
+"value": 2014.0541162321533,
+"confidence": [
+2013.6811715979034,
+2014.6131232006526
+]
+},
+"div": 0.015481581210834285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C8T",
+"G260A",
+"C644T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS188_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.01709639062330726,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C628T"
+]
+}
+}
+},
+{
+"name": "NCHADS217_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9931506849316,
+"confidence": [
+2014.9931506849316,
+2014.9931506849316
+]
+},
+"div": 0.017099058945904702,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G664A"
+]
+}
+}
+},
+{
+"name": "NODE_0000124",
+"node_attrs": {
+"num_date": {
+"value": 2014.7123792305633,
+"confidence": [
+2014.2657337276046,
+2014.9458995220455
+]
+},
+"div": 0.01709032603796569,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C362T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS143_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.018977997806644695,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G282A"
+]
+}
+}
+},
+{
+"name": "NCHADS122_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.01709032603796569,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000044",
+"node_attrs": {
+"num_date": {
+"value": 2014.627513855913,
+"confidence": [
+2014.0266583956818,
+2014.9657534246576
+]
+},
+"div": 0.015481581210834285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS169_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.015481581210834285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000045",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.5333485128976,
+2014.9657534246576
+]
+},
+"div": 0.015481581210834285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS170_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.015481581210834285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS180_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.015481581210834285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000130",
+"node_attrs": {
+"num_date": {
+"value": 2014.2843812618903,
+"confidence": [
+2013.9173650468779,
+2014.7122706747962
+]
+},
+"div": 0.017089061292790017,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A321G"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000132",
+"node_attrs": {
+"num_date": {
+"value": 2014.8834193803868,
+"confidence": [
+2014.6326212516485,
+2014.9931113103041
+]
+},
+"div": 0.02352936928415304,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A260G",
+"T509C",
+"T513C",
+"C516T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS215_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9986301369863,
+"confidence": [
+2014.9986301369863,
+2014.9986301369863
+]
+},
+"div": 0.02352936928415304,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS220_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9931506849316,
+"confidence": [
+2014.9931506849316,
+2014.9931506849316
+]
+},
+"div": 0.025448935571657446,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A162T"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000049",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.554933834776,
+2014.954794520548
+]
+},
+"div": 0.018697092513449035,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A562T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS232_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0342465753424,
+"confidence": [
+2015.0342465753424,
+2015.0342465753424
+]
+},
+"div": 0.018697092513449035,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS065_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.018697092513449035,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000042",
+"node_attrs": {
+"num_date": {
+"value": 2013.4936168919867,
+"confidence": [
+2012.535555718595,
+2014.8031777782949
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS011_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.01228958825365612,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A141G"
+]
+}
+}
+},
+{
+"name": "NODE_0000043",
+"node_attrs": {
+"num_date": {
+"value": 2013.9013200831496,
+"confidence": [
+2013.2233742193148,
+2014.7779280364948
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS014_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.012260779348329167,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A575G"
+]
+}
+}
+},
+{
+"name": "NODE_0000047",
+"node_attrs": {
+"num_date": {
+"value": 2014.1106978934347,
+"confidence": [
+2013.5958251574295,
+2014.7756152848708
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS151_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.012263876917098196,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C259A"
+]
+}
+}
+},
+{
+"name": "NODE_0000052",
+"node_attrs": {
+"num_date": {
+"value": 2014.2685988186436,
+"confidence": [
+2013.8653180485442,
+2014.7796203877115
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS196_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9767123287672,
+"confidence": [
+2014.9767123287672,
+2014.9767123287672
+]
+},
+"div": 0.012265980690012276,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A5T"
+]
+}
+}
+},
+{
+"name": "NODE_0000053",
+"node_attrs": {
+"num_date": {
+"value": 2014.4002591456629,
+"confidence": [
+2014.057654459148,
+2014.783967046588
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000087",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.6870214061657,
+2014.9657534246576
+]
+},
+"div": 0.012258379334933296,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A57G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS197_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9767123287672,
+"confidence": [
+2014.9767123287672,
+2014.9767123287672
+]
+},
+"div": 0.012258379334933296,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS189_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.012258379334933296,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS162_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.012258379334933296,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000033",
+"node_attrs": {
+"num_date": {
+"value": 2014.5262191106974,
+"confidence": [
+2014.0151559922456,
+2014.954794520548
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS159_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000034",
+"node_attrs": {
+"num_date": {
+"value": 2014.6272982167943,
+"confidence": [
+2014.2158883835923,
+2014.954794520548
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS041_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000035",
+"node_attrs": {
+"num_date": {
+"value": 2014.7101830837937,
+"confidence": [
+2014.3810696337769,
+2014.954794520548
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS230_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0205479452054,
+"confidence": [
+2015.0205479452054,
+2015.0205479452054
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000036",
+"node_attrs": {
+"num_date": {
+"value": 2014.7809384580614,
+"confidence": [
+2014.5210340068104,
+2014.954794520548
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS199_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9767123287672,
+"confidence": [
+2014.9767123287672,
+2014.9767123287672
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000038",
+"node_attrs": {
+"num_date": {
+"value": 2014.8395643395975,
+"confidence": [
+2014.6378632983337,
+2014.954794520548
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS008_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000039",
+"node_attrs": {
+"num_date": {
+"value": 2014.892125474768,
+"confidence": [
+2014.7393571398893,
+2014.954794520548
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS009_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000040",
+"node_attrs": {
+"num_date": {
+"value": 2014.9535132354692,
+"confidence": [
+2014.8236867259736,
+2014.954794520548
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS050_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000041",
+"node_attrs": {
+"num_date": {
+"value": 2014.9931506849316,
+"confidence": [
+2014.8943338746872,
+2014.9931506849316
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS235_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0205479452054,
+"confidence": [
+2015.0205479452054,
+2015.0205479452054
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS216_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9931506849316,
+"confidence": [
+2014.9931506849316,
+2014.9931506849316
+]
+},
+"div": 0.010654900893477148,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000089",
+"node_attrs": {
+"num_date": {
+"value": 2013.7127752733904,
+"confidence": [
+2013.270243193635,
+2014.5397355737389
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G273A"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000098",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.4049706728586,
+2014.9657534246576
+]
+},
+"div": 0.013864470408734977,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A562C"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS166_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.013864470408734977,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS202_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9794520547946,
+"confidence": [
+2014.9794520547946,
+2014.9794520547946
+]
+},
+"div": 0.013864470408734977,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000100",
+"node_attrs": {
+"num_date": {
+"value": 2013.9030752466012,
+"confidence": [
+2013.493620370721,
+2014.5564381327254
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS042_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.0161341142542797,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C426T",
+"T488C"
+]
+}
+}
+},
+{
+"name": "NODE_0000106",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.5773290781879,
+2014.954794520548
+]
+},
+"div": 0.017076395891308327,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T126C",
+"T508C",
+"T509C"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS086_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.017076395891308327,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS149_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.017076395891308327,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000054",
+"node_attrs": {
+"num_date": {
+"value": 2014.5929313207214,
+"confidence": [
+2014.0723627512434,
+2014.954794520548
+]
+},
+"div": 0.0154723117663939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T513C",
+"C516T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS158_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.0154723117663939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000055",
+"node_attrs": {
+"num_date": {
+"value": 2014.7485931441104,
+"confidence": [
+2014.3750067616193,
+2014.954794520548
+]
+},
+"div": 0.0154723117663939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS139_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.0154723117663939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000056",
+"node_attrs": {
+"num_date": {
+"value": 2014.8636283867847,
+"confidence": [
+2014.6001109225488,
+2014.954794520548
+]
+},
+"div": 0.0154723117663939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS165_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.0154723117663939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000057",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.768852859201,
+2014.954794520548
+]
+},
+"div": 0.0154723117663939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS025_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.0154723117663939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS044_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.0154723117663939,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000058",
+"node_attrs": {
+"num_date": {
+"value": 2014.12085003654,
+"confidence": [
+2013.185912588567,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS146_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000059",
+"node_attrs": {
+"num_date": {
+"value": 2014.3847083621617,
+"confidence": [
+2013.688962111081,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS117_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000060",
+"node_attrs": {
+"num_date": {
+"value": 2014.5484565140387,
+"confidence": [
+2014.0153171255902,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS022_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000061",
+"node_attrs": {
+"num_date": {
+"value": 2014.665708277111,
+"confidence": [
+2014.2541305113564,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS068_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000062",
+"node_attrs": {
+"num_date": {
+"value": 2014.756679472598,
+"confidence": [
+2014.4411065088489,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS127_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000063",
+"node_attrs": {
+"num_date": {
+"value": 2014.8334995932316,
+"confidence": [
+2014.5959815610609,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS163_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000066",
+"node_attrs": {
+"num_date": {
+"value": 2014.8979808429854,
+"confidence": [
+2014.7257296569098,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS212_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0150684931507,
+"confidence": [
+2015.0150684931507,
+2015.0150684931507
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000067",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.8324830227552,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS224_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9986301369863,
+"confidence": [
+2014.9986301369863,
+2014.9986301369863
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS073_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000133",
+"node_attrs": {
+"num_date": {
+"value": 2013.5474218367392,
+"confidence": [
+2013.1872597751385,
+2014.2890348960025
+]
+},
+"div": 0.013870734730602097,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G9A",
+"C228A"
+]
+}
+},
+"children": [
+{
+"name": "NODE_0000069",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2013.9896852116738,
+2014.9575342465753
+]
+},
+"div": 0.013870734730602097,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS015_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.013870734730602097,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS190_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.013870734730602097,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000134",
+"node_attrs": {
+"num_date": {
+"value": 2013.9597622503534,
+"confidence": [
+2013.547574277795,
+2014.5361419953806
+]
+},
+"div": 0.01547815065575333,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G336A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS024_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.01735383882658711,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A228C"
+]
+}
+}
+},
+{
+"name": "NODE_0000071",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.4680773815212,
+2014.954794520548
+]
+},
+"div": 0.01708683147786259,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C644T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS013_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.01708683147786259,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS076_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.01708683147786259,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000137",
+"node_attrs": {
+"num_date": {
+"value": 2014.6047562013675,
+"confidence": [
+2014.2470369085484,
+2014.8745225873192
+]
+},
+"div": 0.02031512562056058,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T513C",
+"C516T",
+"T519A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS102_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9438356164383,
+"confidence": [
+2014.9438356164383,
+2014.9438356164383
+]
+},
+"div": 0.02417686340331041,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A231G",
+"G313A"
+]
+}
+}
+},
+{
+"name": "NODE_0000073",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.5714680296255,
+2014.9575342465753
+]
+},
+"div": 0.02031512562056058,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS138_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.02031512562056058,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS012_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.02031512562056058,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000142",
+"node_attrs": {
+"num_date": {
+"value": 2014.2776973592938,
+"confidence": [
+2013.8744845880562,
+2014.7473192724153
+]
+},
+"div": 0.017090411533549992,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.865
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T541C",
+"C563G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS074_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.018976642715737485,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A293C"
+]
+}
+}
+},
+{
+"name": "NCHADS110_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.0219809678452012,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A655T",
+"A656T",
+"T657A"
+]
+}
+}
+},
+{
+"name": "NODE_0000075",
+"node_attrs": {
+"num_date": {
+"value": 2014.6081787303208,
+"confidence": [
+2014.0819468103875,
+2014.9630136986302
+]
+},
+"div": 0.017090411533549992,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS154_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.017090411533549992,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000078",
+"node_attrs": {
+"num_date": {
+"value": 2014.8369516955236,
+"confidence": [
+2014.4876568602526,
+2014.9630136986302
+]
+},
+"div": 0.017090411533549992,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS140_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.017090411533549992,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000079",
+"node_attrs": {
+"num_date": {
+"value": 2014.9849315068493,
+"confidence": [
+2014.7314750338944,
+2014.9849315068493
+]
+},
+"div": 0.017090411533549992,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS211_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9849315068493,
+"confidence": [
+2014.9849315068493,
+2014.9849315068493
+]
+},
+"div": 0.017090411533549992,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS209_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9849315068493,
+"confidence": [
+2014.9849315068493,
+2014.9849315068493
+]
+},
+"div": 0.017090411533549992,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000147",
+"node_attrs": {
+"num_date": {
+"value": 2014.5464152151494,
+"confidence": [
+2014.253484832659,
+2014.859831660899
+]
+},
+"div": 0.02194807788870548,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.993
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T126C",
+"T513C",
+"C516T",
+"T519A",
+"C521A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS208_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9849315068493,
+"confidence": [
+2014.9849315068493,
+2014.9849315068493
+]
+},
+"div": 0.023818380001094968,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G417A"
+]
+}
+}
+},
+{
+"name": "NCHADS204_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9794520547946,
+"confidence": [
+2014.9794520547946,
+2014.9794520547946
+]
+},
+"div": 0.02380767480860604,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T222A"
+]
+}
+}
+},
+{
+"name": "NCHADS053_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.023859472396619834,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A477G"
+]
+}
+}
+},
+{
+"name": "NODE_0000148",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.671158734179,
+2014.9575342465753
+]
+},
+"div": 0.023556318104489285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G260A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS176_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.023556318104489285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS019_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.023556318104489285,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000082",
+"node_attrs": {
+"num_date": {
+"value": 2014.751322279975,
+"confidence": [
+2014.4163502303134,
+2014.954794520548
+]
+},
+"div": 0.02194807788870548,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS016_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.02194807788870548,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000083",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.6937725117855,
+2014.954794520548
+]
+},
+"div": 0.02194807788870548,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS186_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.02194807788870548,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS091_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.02194807788870548,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000155",
+"node_attrs": {
+"num_date": {
+"value": 2013.890968913415,
+"confidence": [
+2013.6707666433147,
+2014.48478746085
+]
+},
+"div": 0.03026176661415491,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A32T",
+"G40T",
+"A43G",
+"C66G",
+"G77A",
+"C107G",
+"C115A",
+"T126C",
+"T513C",
+"C516T",
+"T519A",
+"T569G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS003_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.0340055314269496,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A392G",
+"T509C"
+]
+}
+}
+},
+{
+"name": "NCHADS021_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.03220205751926344,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G497A"
+]
+}
+}
+},
+{
+"name": "NCHADS225_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0150684931507,
+"confidence": [
+2015.0150684931507,
+2015.0150684931507
+]
+},
+"div": 0.03398453504720126,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G195A",
+"C510T"
+]
+}
+}
+},
+{
+"name": "NCHADS222_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9931506849316,
+"confidence": [
+2014.9931506849316,
+2014.9931506849316
+]
+},
+"div": 0.03581847593961857,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C130T",
+"T131C",
+"T317C"
+]
+}
+}
+},
+{
+"name": "NODE_0000168",
+"node_attrs": {
+"num_date": {
+"value": 2014.2558972839565,
+"confidence": [
+2013.9614363765638,
+2014.7157257122642
+]
+},
+"div": 0.03186868731672306,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C236T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS077_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.03377938450032734,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T473A"
+]
+}
+}
+},
+{
+"name": "NCHADS191_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.033721995615999124,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A391G"
+]
+}
+}
+},
+{
+"name": "NODE_0000172",
+"node_attrs": {
+"num_date": {
+"value": 2014.8354601243907,
+"confidence": [
+2014.5671464584677,
+2014.9630136986302
+]
+},
+"div": 0.03671102688191043,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T474A",
+"A475C",
+"C476A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS161_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.03863608104801582,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T236C"
+]
+}
+}
+},
+{
+"name": "NCHADS152_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.03671102688191043,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000088",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.3835001633038,
+2014.9575342465753
+]
+},
+"div": 0.03186868731672306,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS033_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.03186868731672306,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS223_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9931506849316,
+"confidence": [
+2014.9931506849316,
+2014.9931506849316
+]
+},
+"div": 0.03186868731672306,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000090",
+"node_attrs": {
+"num_date": {
+"value": 2014.3644925409426,
+"confidence": [
+2013.6857335032857,
+2014.954794520548
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A121T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS030_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000091",
+"node_attrs": {
+"num_date": {
+"value": 2014.5565428425264,
+"confidence": [
+2014.0403165929813,
+2014.954794520548
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS093_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000092",
+"node_attrs": {
+"num_date": {
+"value": 2014.6866422422358,
+"confidence": [
+2014.2903804109947,
+2014.954794520548
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS067_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000093",
+"node_attrs": {
+"num_date": {
+"value": 2014.7843963279943,
+"confidence": [
+2014.4827166040764,
+2014.9575342465753
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS020_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000094",
+"node_attrs": {
+"num_date": {
+"value": 2014.864807168155,
+"confidence": [
+2014.6430018575084,
+2014.9602739726026
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS128_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000095",
+"node_attrs": {
+"num_date": {
+"value": 2014.9350157590536,
+"confidence": [
+2014.76338286056,
+2014.9739726027397
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS194_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000096",
+"node_attrs": {
+"num_date": {
+"value": 2014.9931506849316,
+"confidence": [
+2014.8648734983487,
+2014.9931506849316
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS219_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9931506849316,
+"confidence": [
+2014.9931506849316,
+2014.9931506849316
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS226_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0753424657535,
+"confidence": [
+2015.0753424657535,
+2015.0753424657535
+]
+},
+"div": 0.03186899418810404,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000173",
+"node_attrs": {
+"num_date": {
+"value": 2014.0093031253205,
+"confidence": [
+2013.795968657164,
+2014.5427268607632
+]
+},
+"div": 0.03186844328145828,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G260A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS144_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.03186844328145828,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000174",
+"node_attrs": {
+"num_date": {
+"value": 2014.0604944836882,
+"confidence": [
+2013.8396213613214,
+2014.5446935035966
+]
+},
+"div": 0.03186844328145828,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS214_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0150684931507,
+"confidence": [
+2015.0150684931507,
+2015.0150684931507
+]
+},
+"div": 0.03925708004683696,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A121T",
+"C130A",
+"G160A",
+"G261C"
+]
+}
+}
+},
+{
+"name": "NODE_0000185",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.5813789192484,
+2014.9602739726026
+]
+},
+"div": 0.033476139346066046,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G216A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS121_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.033476139346066046,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS133_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.033476139346066046,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS179_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.033476139346066046,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000180",
+"node_attrs": {
+"num_date": {
+"value": 2014.209039221602,
+"confidence": [
+2013.9571316467172,
+2014.625827718198
+]
+},
+"div": 0.03347512012467695,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A412G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS234_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0205479452054,
+"confidence": [
+2015.0205479452054,
+2015.0205479452054
+]
+},
+"div": 0.03535302864079179,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G261C"
+]
+}
+}
+},
+{
+"name": "NODE_0000181",
+"node_attrs": {
+"num_date": {
+"value": 2014.2833714742492,
+"confidence": [
+2013.9837154008642,
+2014.6396393384277
+]
+},
+"div": 0.03347512012467695,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS187_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.035368803339997,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G261T"
+]
+}
+}
+},
+{
+"name": "NODE_0000182",
+"node_attrs": {
+"num_date": {
+"value": 2014.8180241520183,
+"confidence": [
+2014.6158261893097,
+2014.9288122859498
+]
+},
+"div": 0.0431703374669122,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.998
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T119C",
+"G124C",
+"C126T",
+"C513T",
+"T516C",
+"A519T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS130_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.0431703374669122,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS078_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.0470543791013467,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C431T",
+"A471G"
+]
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000103",
+"node_attrs": {
+"num_date": {
+"value": 2014.4796277667524,
+"confidence": [
+2013.922744628627,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G261C"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS173_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000104",
+"node_attrs": {
+"num_date": {
+"value": 2014.6596435307451,
+"confidence": [
+2014.245987453344,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS061_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000105",
+"node_attrs": {
+"num_date": {
+"value": 2014.7829600401833,
+"confidence": [
+2014.4776939290327,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS060_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000107",
+"node_attrs": {
+"num_date": {
+"value": 2014.8768408699389,
+"confidence": [
+2014.6575299149845,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS031_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000108",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.7971676383293,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS177_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS123_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000188",
+"node_attrs": {
+"num_date": {
+"value": 2014.1706689044938,
+"confidence": [
+2013.8781809031493,
+2014.5728114630579
+]
+},
+"div": 0.03186844328145828,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS087_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.03373628530209738,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A141G"
+]
+}
+}
+},
+{
+"name": "NCHADS054_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.033796356956191584,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A260C"
+]
+}
+}
+},
+{
+"name": "NODE_0000110",
+"node_attrs": {
+"num_date": {
+"value": 2014.751322279975,
+"confidence": [
+2014.3435494662062,
+2014.954794520548
+]
+},
+"div": 0.033476383864858614,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C130T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS167_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.033476383864858614,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000111",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.6542202234814,
+2014.954794520548
+]
+},
+"div": 0.033476383864858614,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS002_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.033476383864858614,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS058_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.033476383864858614,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000193",
+"node_attrs": {
+"num_date": {
+"value": 2014.3916324303655,
+"confidence": [
+2014.101340623318,
+2014.74014499043
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G160C"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS183_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.035338857428224076,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G417T"
+]
+}
+}
+},
+{
+"name": "NODE_0000113",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.4702610480122,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS063_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS153_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.03347696353637932,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000196",
+"node_attrs": {
+"num_date": {
+"value": 2014.79776162138,
+"confidence": [
+2014.5637511880896,
+2014.9931506849316
+]
+},
+"div": 0.03831217497340875,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A161T",
+"A162G",
+"C521A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS221_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9931506849316,
+"confidence": [
+2014.9931506849316,
+2014.9931506849316
+]
+},
+"div": 0.03831217497340875,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000197",
+"node_attrs": {
+"num_date": {
+"value": 2014.9747064345552,
+"confidence": [
+2014.7793125825076,
+2015.0342465753424
+]
+},
+"div": 0.03992093056299163,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C228A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS236_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0506849315068,
+"confidence": [
+2015.0506849315068,
+2015.0506849315068
+]
+},
+"div": 0.041829568970956,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G216A"
+]
+}
+}
+},
+{
+"name": "NCHADS233_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0342465753424,
+"confidence": [
+2015.0342465753424,
+2015.0342465753424
+]
+},
+"div": 0.03992093056299163,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000020",
+"node_attrs": {
+"num_date": {
+"value": 2013.6962552570487,
+"confidence": [
+2013.398138938271,
+2014.3281852642338
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G260A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS045_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.015498280929359853,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G48A",
+"G258A"
+]
+}
+}
+},
+{
+"name": "NCHADS181_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.013871928242236894,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A412G"
+]
+}
+}
+},
+{
+"name": "NCHADS092_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.017153551260753547,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G416A",
+"A527G",
+"A601G"
+]
+}
+}
+},
+{
+"name": "NCHADS106_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.017939095059064367,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A359C",
+"A383T",
+"C425A"
+]
+}
+}
+},
+{
+"name": "NCHADS081_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.01386731241304033,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G497A"
+]
+}
+}
+},
+{
+"name": "NCHADS134_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.013869921704796674,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G647A"
+]
+}
+}
+},
+{
+"name": "NCHADS052_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.016038315155951246,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A294G",
+"T357G"
+]
+}
+}
+},
+{
+"name": "NCHADS129_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.015478325076150115,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A43G",
+"G660A"
+]
+}
+}
+},
+{
+"name": "NODE_0000037",
+"node_attrs": {
+"num_date": {
+"value": 2014.2391568822543,
+"confidence": [
+2013.7813637007034,
+2014.7540861363866
+]
+},
+"div": 0.013865149683467385,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C431T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS210_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9849315068493,
+"confidence": [
+2014.9849315068493,
+2014.9849315068493
+]
+},
+"div": 0.013865149683467385,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS142_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.0187354068274941,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A178G",
+"T489C",
+"A562T"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000064",
+"node_attrs": {
+"num_date": {
+"value": 2014.807431032705,
+"confidence": [
+2014.427433288082,
+2014.9575342465753
+]
+},
+"div": 0.018718739988731976,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.982
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G1T",
+"G358A",
+"T602A",
+"G618A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS032_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.018718739988731976,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS178_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9739726027397,
+"confidence": [
+2014.9739726027397,
+2014.9739726027397
+]
+},
+"div": 0.020615463425239844,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A430G"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000065",
+"node_attrs": {
+"num_date": {
+"value": 2014.1310467311644,
+"confidence": [
+2013.7162979833827,
+2014.690506996552
+]
+},
+"div": 0.013864906199993789,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G334A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS207_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9849315068493,
+"confidence": [
+2014.9849315068493,
+2014.9849315068493
+]
+},
+"div": 0.018739556943358337,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T35C",
+"G313A",
+"A562T"
+]
+}
+}
+},
+{
+"name": "NCHADS125_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.015760898175639894,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C426A"
+]
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000046",
+"node_attrs": {
+"num_date": {
+"value": 2013.9926755797546,
+"confidence": [
+2013.6642371084229,
+2014.516854797449
+]
+},
+"div": 0.013865727605353347,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G261C"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS017_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.013865727605353347,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS157_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.017114642833973816,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A321G",
+"G664A"
+]
+}
+}
+},
+{
+"name": "NODE_0000048",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.624556152215,
+2014.954794520548
+]
+},
+"div": 0.018690361182494276,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.95
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A220C",
+"A562C",
+"A619T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS070_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.018690361182494276,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS051_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.018690361182494276,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000050",
+"node_attrs": {
+"num_date": {
+"value": 2014.2908471358116,
+"confidence": [
+2013.922210762894,
+2014.6888549627165
+]
+},
+"div": 0.015470596135780846,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C227T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS080_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.019255582507551283,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G301A",
+"G334A"
+]
+}
+}
+},
+{
+"name": "NODE_0000051",
+"node_attrs": {
+"num_date": {
+"value": 2014.6650578477713,
+"confidence": [
+2014.2767431002148,
+2014.877782832304
+]
+},
+"div": 0.017076957069656794,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C236T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS004_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.020831644302833734,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C130T",
+"A430G"
+]
+}
+}
+},
+{
+"name": "NCHADS018_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.017076957069656794,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000023",
+"node_attrs": {
+"num_date": {
+"value": 2014.0603848443127,
+"confidence": [
+2013.7643894909013,
+2014.6054249841247
+]
+},
+"div": 0.013864470408734977,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A260C"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS150_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.015805961918242753,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C444G"
+]
+}
+}
+},
+{
+"name": "NCHADS228_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0753424657535,
+"confidence": [
+2015.0753424657535,
+2015.0753424657535
+]
+},
+"div": 0.015467066039956935,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A539G"
+]
+}
+}
+},
+{
+"name": "NCHADS172_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.015747459867227375,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"G261A"
+]
+}
+}
+},
+{
+"name": "NODE_0000125",
+"node_attrs": {
+"num_date": {
+"value": 2014.7457386022786,
+"confidence": [
+2014.2909660759456,
+2014.954794520548
+]
+},
+"div": 0.015469039305803175,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"T60A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS056_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.015469039305803175,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000126",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.6366727532466,
+2014.954794520548
+]
+},
+"div": 0.015469039305803175,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS071_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.015469039305803175,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS118_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.015469039305803175,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000024",
+"node_attrs": {
+"num_date": {
+"value": 2014.3045537068654,
+"confidence": [
+2014.0052607878745,
+2014.7271787594245
+]
+},
+"div": 0.015468323447362577,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C644T"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS205_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9794520547946,
+"confidence": [
+2014.9794520547946,
+2014.9794520547946
+]
+},
+"div": 0.015468323447362577,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000025",
+"node_attrs": {
+"num_date": {
+"value": 2014.4990836915956,
+"confidence": [
+2014.2177040682461,
+2014.8086020531514
+]
+},
+"div": 0.017074890551626896,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C260A"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS198_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9767123287672,
+"confidence": [
+2014.9767123287672,
+2014.9767123287672
+]
+},
+"div": 0.017074890551626896,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000026",
+"node_attrs": {
+"num_date": {
+"value": 2014.656675573877,
+"confidence": [
+2014.4003016995482,
+2014.865053421581
+]
+},
+"div": 0.018680876067141545,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A391G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS213_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0150684931507,
+"confidence": [
+2015.0150684931507,
+2015.0150684931507
+]
+},
+"div": 0.020288856460340766,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A665G"
+]
+}
+}
+},
+{
+"name": "NODE_0000027",
+"node_attrs": {
+"num_date": {
+"value": 2014.8111711577806,
+"confidence": [
+2014.590109662521,
+2014.9230263176714
+]
+},
+"div": 0.02028584440199234,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.632
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A260G"
+]
+}
+},
+"children": [
+{
+"name": "NCHADS062_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.021921554922397894,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"C425A"
+]
+}
+}
+},
+{
+"name": "NCHADS059_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.02221428792529966,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A477C"
+]
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000157",
+"node_attrs": {
+"num_date": {
+"value": 2013.8908779160008,
+"confidence": [
+2013.2198049619342,
+2014.8636663253667
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS227_roka",
+"node_attrs": {
+"num_date": {
+"value": 2015.0753424657535,
+"confidence": [
+2015.0753424657535,
+2015.0753424657535
+]
+},
+"div": 0.013866899580618314,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": [
+"A539G"
+]
+}
+}
+},
+{
+"name": "NODE_0000131",
+"node_attrs": {
+"num_date": {
+"value": 2014.097716921466,
+"confidence": [
+2013.219671120762,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS001_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000135",
+"node_attrs": {
+"num_date": {
+"value": 2014.2459635402363,
+"confidence": [
+2013.504871250804,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS132_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000136",
+"node_attrs": {
+"num_date": {
+"value": 2014.3564062124547,
+"confidence": [
+2013.7210569650526,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS120_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000138",
+"node_attrs": {
+"num_date": {
+"value": 2014.4420014527248,
+"confidence": [
+2013.891360776447,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS101_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000139",
+"node_attrs": {
+"num_date": {
+"value": 2014.5140896179657,
+"confidence": [
+2014.0347581450153,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS079_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000140",
+"node_attrs": {
+"num_date": {
+"value": 2014.5747370816239,
+"confidence": [
+2014.156126866889,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS156_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000141",
+"node_attrs": {
+"num_date": {
+"value": 2014.6293197989162,
+"confidence": [
+2014.2641510957376,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS023_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000143",
+"node_attrs": {
+"num_date": {
+"value": 2014.6758161877208,
+"confidence": [
+2014.3573701137739,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS010_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000144",
+"node_attrs": {
+"num_date": {
+"value": 2014.7182694122814,
+"confidence": [
+2014.4411928724837,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS026_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000145",
+"node_attrs": {
+"num_date": {
+"value": 2014.756679472598,
+"confidence": [
+2014.5163739230024,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS057_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000146",
+"node_attrs": {
+"num_date": {
+"value": 2014.791046368671,
+"confidence": [
+2014.5836399346522,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS066_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000149",
+"node_attrs": {
+"num_date": {
+"value": 2014.823391682622,
+"confidence": [
+2014.6457288640547,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS148_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9630136986302,
+"confidence": [
+2014.9630136986302,
+2014.9630136986302
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000150",
+"node_attrs": {
+"num_date": {
+"value": 2014.8516938323291,
+"confidence": [
+2014.7002844299418,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NODE_0000151",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.8300023685708,
+2014.9602739726026
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS131_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS126_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9602739726026,
+"confidence": [
+2014.9602739726026,
+2014.9602739726026
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+},
+{
+"name": "NODE_0000152",
+"node_attrs": {
+"num_date": {
+"value": 2014.8847572901855,
+"confidence": [
+2014.7624350429282,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS043_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.954794520548,
+"confidence": [
+2014.954794520548,
+2014.954794520548
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000153",
+"node_attrs": {
+"num_date": {
+"value": 2014.917235453731,
+"confidence": [
+2014.8233740687208,
+2014.9575342465753
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS034_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9575342465753,
+"confidence": [
+2014.9575342465753,
+2014.9575342465753
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000154",
+"node_attrs": {
+"num_date": {
+"value": 2014.9480964852396,
+"confidence": [
+2014.8709029601055,
+2014.9657534246576
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS168_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9657534246576,
+"confidence": [
+2014.9657534246576,
+2014.9657534246576
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NODE_0000156",
+"node_attrs": {
+"num_date": {
+"value": 2014.9767123287672,
+"confidence": [
+2014.915414528247,
+2014.9767123287672
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 0.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+},
+"children": [
+{
+"name": "NCHADS203_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9794520547946,
+"confidence": [
+2014.9794520547946,
+2014.9794520547946
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+},
+{
+"name": "NCHADS201_roka",
+"node_attrs": {
+"num_date": {
+"value": 2014.9767123287672,
+"confidence": [
+2014.9767123287672,
+2014.9767123287672
+]
+},
+"div": 0.012259395295056355,
+"bad_branch": {
+"value": "No"
+},
+"confidence": {
+"value": 1.0
+}
+},
+"branch_attrs": {
+"mutations": {
+"nuc": []
+}
+}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+}

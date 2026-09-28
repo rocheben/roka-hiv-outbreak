@@ -1,0 +1,14 @@
+{
+  "_source": "Effectifs par age : script fitDetV2.R (2016, dossier old/VIHRoka) et dataSummary.xlsx (somme des negatifs et positifs VIH testes). Fractions de recence connue : dataSummary.xlsx (240 VIH+ dont 208 avec classe de recence ; 163 VIH+VHC+ dont 107 avec classe de recence VHC). Nombre de seringues : hypothese du modele (Klara Asselin, D_Roka_trees.R).",
+  "age_classes": ["<15 years", "15-64 years", ">=65 years"],
+  "population_exposed": [229, 428, 49],
+  "population_village": [687, 1284, 147],
+  "hiv_cases_with_status": 240,
+  "hiv_cases_with_recency": 208,
+  "coinfected_cases": 163,
+  "coinfected_with_hcv_recency": 107,
+  "n_syringes": 100,
+  "acute_phase_days": 30,
+  "last_sequence_date": "2015-01-28",
+  "first_sequence_date": "2014-12-01"
+}
