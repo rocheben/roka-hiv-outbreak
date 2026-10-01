@@ -52,3 +52,7 @@ cd code/manuscript && npm install && cd ../..   # once, for the documents
 bash code/scripts/make_all.sh               # caches, figures, tables and both documents
 python3 code/scripts/fig2_fit.py            # a single figure
 ```
+
+## License
+
+MIT, see [LICENSE](LICENSE).
