@@ -1,6 +1,7 @@
-"""Figure 4 : voies de transmission (modèle retenu).
-A-B : infections VIH et VHC par voie (prédictif a posteriori).
-C : cas VIH à la détection selon les scénarios contrefactuels."""
+"""Figure 5 du manuscrit. Contribution de chaque voie de transmission et scénarios
+contrefactuels. Au-dessus de chaque voie, sa part dans l'ensemble des infections
+simulées, avec intervalle à 95 % par bootstrap sur les simulations.
+Sortie : figures/fig5_routes.png (+ PDF et TIFF dans figures/eid/)."""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))   # dossier code/ (paquet roka)
@@ -14,7 +15,16 @@ COL = ["#2a9d6f", "#2e6fb7", "#8e6bbf", "#7f7f7f"]
 rng = np.random.default_rng(3)
 
 
-def panel(ax, data, labels, cols, title, ylab):
+def pooled_shares(r, B=2000, seed=1):
+    """Part de chaque colonne dans le total des simulations, IC 95 % par bootstrap."""
+    r = np.asarray(r, float)
+    g = np.random.default_rng(seed)
+    est = r.sum(0) / r.sum()
+    bs = np.array([(lambda s_: s_ / s_.sum())(r[g.integers(0, len(r), len(r))].sum(0)) for _ in range(B)])
+    return est, np.percentile(bs, 2.5, 0), np.percentile(bs, 97.5, 0)
+
+
+def panel(ax, data, labels, cols, title, ylab, shares=None):
     for k, (v, c) in enumerate(zip(data, cols)):
         ax.scatter(k + rng.uniform(-0.18, 0.18, len(v)), v, s=4, color=c, alpha=0.3, lw=0)
         b = ax.boxplot([v], positions=[k], widths=0.5, showfliers=False, patch_artist=True)
@@ -23,6 +33,13 @@ def panel(ax, data, labels, cols, title, ylab):
         for part in ("whiskers", "caps", "medians"):
             for x in b[part]:
                 x.set_color("black")
+    if shares is not None:
+        est, lo, hi = shares
+        top = max(np.max(v) for v in data)
+        ax.set_ylim(top=top * 1.18)
+        for k in range(len(data)):
+            ax.text(k, top * 1.12, f"{100 * est[k]:.0f}%\n({100 * lo[k]:.0f}–{100 * hi[k]:.0f}%)", ha="center",
+                    va="center", fontsize=8.5, fontweight="bold", color=cols[k])
     ax.set_xticks(range(len(labels)))
     ax.set_xticklabels(labels, fontsize=8)
     ax.set_title(title, loc="left", fontweight="bold")
@@ -31,13 +48,14 @@ def panel(ax, data, labels, cols, title, ylab):
 
 fig, axes = plt.subplots(1, 3, figsize=(12.5, 4.2), gridspec_kw=dict(width_ratios=[3, 3, 4]))
 panel(axes[0], [rh[:, 0], rh[:, 1], rh[:, 2]], ["Multidose\nvials", "Syringes shared\nbetween patients",
-      "Sexual\ntransmission"], COL[:3], "A. HIV infections by route", "Number of infections")
+      "Sexual\ntransmission"], COL[:3], "A. HIV infections by route", "Number of infections",
+      shares=pooled_shares(rh[:, :3]))
 panel(axes[1], [rc[:, 0], rc[:, 1], rc[:, 3]], ["Multidose\nvials", "Syringes shared\nbetween patients",
       "Infected before\nthe outbreak"], [COL[0], COL[1], COL[3]], "B. HCV infections by route",
-      "Number of infections")
+      "Number of infections", shares=pooled_shares(rc[:, [0, 1, 3]]))
 cf = counterfactuals()
 LAB = ["Fitted\nmodel", "Without sexual\ntransmission", "Without\nmultidose vials",
        "Without syringe\nsharing"]
 panel(axes[2], [cf[c][:, :, 10].sum(1) for c in CF_NAMES], LAB,
       ["#555555", COL[2], COL[0], COL[1]], "C. HIV cases at testing", "Number of HIV-infected individuals")
-save(fig, "fig4_routes.png")
+save(fig, "fig5_routes.png")

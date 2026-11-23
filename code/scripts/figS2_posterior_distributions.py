@@ -1,4 +1,6 @@
-"""Figure S2 : distributions a priori et a posteriori des paramètres du modèle retenu."""
+"""Appendix Figure 2. Distributions a priori et a posteriori des paramètres du modèle
+retenu.
+Sortie : figures/figS2_posterior_distributions.png."""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))   # dossier code/ (paquet roka)

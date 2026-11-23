@@ -1,5 +1,6 @@
-"""Figure 2 : ajustement du modèle retenu (prédictif a posteriori) aux données
-de récence, par âge."""
+"""Figure 3 du manuscrit. Ajustement du modèle retenu aux données de récence et d'âge
+(prédictif a posteriori).
+Sortie : figures/fig3_fit.png (+ PDF et TIFF dans figures/eid/)."""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))   # dossier code/ (paquet roka)
@@ -21,4 +22,4 @@ for ax, sl, obs, labs, ttl in ((axes[0], slice(0, 12), OBS_HIV.ravel(), lh, "A. 
     ax.set_title(ttl, loc="left")
     ax.set_ylabel("Number of cases with known recency")
 axes[0].legend(fontsize=8)
-save(fig, "fig2_fit.png")
+save(fig, "fig3_fit.png")

@@ -1,7 +1,6 @@
-"""Figure 5 : infections par le VHC à la date de test (extrapolation du modèle
-retenu), en distinguant les infections diagnostiquées (co-infections VIH-VHC,
-seuls les individus VIH+ ayant été testés pour le VHC) et non diagnostiquées
-(VHC seul)."""
+"""Figure 6 du manuscrit. Infections par le VHC à la date de test, diagnostiquées et
+non diagnostiquées, par classe d'âge (extrapolation du modèle retenu).
+Sortie : figures/fig6_hidden_hcv.png (+ PDF et TIFF dans figures/eid/)."""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))   # dossier code/ (paquet roka)
@@ -23,4 +22,4 @@ ax.set_ylabel("HCV-infected individuals at testing")
 ax.bar([0], [0], color=C_DX, label="Diagnosed (HIV/HCV coinfected, tested for HCV)")
 ax.bar([0], [0], color=C_UDX, label="Not diagnosed (HCV only, not tested)")
 ax.legend(fontsize=8, loc="upper left")
-save(fig, "fig5_hidden_hcv.png")
+save(fig, "fig6_hidden_hcv.png")

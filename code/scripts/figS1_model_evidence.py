@@ -1,4 +1,5 @@
-"""Figure S1 : évidence ABC de chaque modèle en fonction de la tolérance."""
+"""Appendix Figure 1. Évidence ABC de chaque modèle en fonction de la tolérance.
+Sortie : figures/figS1_model_evidence.png."""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))   # dossier code/ (paquet roka)

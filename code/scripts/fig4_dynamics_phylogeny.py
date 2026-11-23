@@ -1,5 +1,6 @@
-"""Figure 3 : dynamique simulée (modèle retenu) et comparaison avec les
-analyses phylogénétiques de Rouet et al. (2018)."""
+"""Figure 4 du manuscrit. Dynamique simulée du modèle retenu et comparaison avec les
+analyses phylogénétiques publiées (tMRCA, pic LTT).
+Sortie : figures/fig4_dynamics_phylogeny.png (+ PDF et TIFF dans figures/eid/)."""
 import sys
 import datetime as dt
 from pathlib import Path
@@ -42,4 +43,4 @@ ax[1].set_xticks([0, 1, 2.3, 3.3])
 ax[1].set_xticklabels(["tMRCA\nmodel", "tMRCA\nRouet et al.", "Peak of\nbranching\nmodel", "LTT peak\nRouet et al."])
 ax[1].set_ylabel("Calendar year")
 ax[1].set_title("B. HIV genealogy: model vs BEAST", loc="left")
-save(fig, "fig3_dynamics_phylogeny.png")
+save(fig, "fig4_dynamics_phylogeny.png")

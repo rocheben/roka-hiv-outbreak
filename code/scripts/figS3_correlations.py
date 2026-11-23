@@ -1,5 +1,6 @@
-"""Figure S3 : corrélations a posteriori entre paramètres du modèle retenu
-(échelle log pour les paramètres à prior log-uniforme)."""
+"""Appendix Figure 3. Corrélations a posteriori entre paramètres du modèle retenu
+(échelle log pour les paramètres à prior log-uniforme).
+Sortie : figures/figS3_correlations.png."""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))   # dossier code/ (paquet roka)

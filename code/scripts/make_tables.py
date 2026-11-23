@@ -48,6 +48,22 @@ n["abc"] = dict(n_particles=S["n_particles"], eps0=S["eps_schedule"][0], eps_fac
                 total_sims=int(sum(sum(g["n_sim"] for g in load_history(m)) for m in available_models())))
 
 
+def pooled_shares(r, B=2000, seed=1):
+    """Part de chaque voie (flacons, seringues, sexuelle) dans l'ensemble des infections VIH
+    acquises pendant l'épidémie (cas index exclu), toutes simulations confondues, avec
+    intervalle à 95 % par bootstrap sur les simulations. Les trois parts somment à 1."""
+    r = np.asarray(r, float)[:, :3]
+    rng = np.random.default_rng(seed)
+    est = r.sum(0) / r.sum()
+    bs = []
+    for _ in range(B):
+        s_ = r[rng.integers(0, len(r), len(r))].sum(0)
+        bs.append(s_ / s_.sum())
+    bs = np.array(bs)
+    return {k: [float(np.percentile(bs[:, j], 2.5)), float(est[j]), float(np.percentile(bs[:, j], 97.5))]
+            for j, k in enumerate(("vials", "syringes", "sexual"))}
+
+
 def probs(eps, keys):
     ks = [k for k in keys if k in E and eps in E[k]["Z"]]
     z = np.array([E[k]["Z"][eps] for k in ks])
@@ -123,6 +139,7 @@ n["pp"] = dict(
     extinct=float(np.mean(c[:, :, 10].sum(1) < 20)),
     routes_hiv_n=dict(vials=ci(rh[:, 0]), syringes=ci(rh[:, 1]), sexual=ci(rh[:, 2])),
     routes_hiv_frac=dict(vials=ci(rh[:, 0] / tot_h), syringes=ci(rh[:, 1] / tot_h), sexual=ci(rh[:, 2] / tot_h)),
+    routes_hiv_pooled=pooled_shares(rh),
     routes_hcv_n=dict(vials=ci(rc[:, 0]), syringes=ci(rc[:, 1]), pre=ci(rc[:, 3])),
     routes_hcv_frac=dict(vials=ci(rc[:, 0] / tot_c), syringes=ci(rc[:, 1] / tot_c), pre=ci(rc[:, 3] / tot_c)),
     index_share=ci(pp["index_share"]),
@@ -166,6 +183,7 @@ for k, pk in zip(ks, z / z.sum()):
         r = sensitivity_predictive(k)
         c_, rh_ = r["counts"], r["routes_hiv"]
         t_ = np.maximum(rh_.sum(1), 1)
+        d["routes_hiv_pooled"] = pooled_shares(rh_)
         d.update(hiv=ci(c_[:, :, 10].sum(1)), coinf=ci(c_[:, :, 8].sum(1)), hcv_only=ci(c_[:, :, 9].sum(1)),
                  vials=ci(rh_[:, 0] / t_), sexual=ci(rh_[:, 2] / t_), extinct=float(np.mean(c_[:, :, 10].sum(1) < 20)))
     sens[k] = d

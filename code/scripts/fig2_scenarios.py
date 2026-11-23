@@ -1,5 +1,5 @@
-"""Schéma des scénarios d'introduction et de transmission testés
-(figures/fig1_scenarios.png)."""
+"""Figure 2 du manuscrit. Scénarios d'introduction et de transmission comparés (A-D).
+Sortie : figures/fig2_scenarios.png (+ PDF et TIFF dans figures/eid/)."""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))   # dossier code/ (paquet roka)
@@ -138,4 +138,4 @@ F.text(0.2, 4.6, "In every scenario: sexual transmission of HIV\n"
        "population, estimated date at which the practitioner\n"
        "stopped injecting.",
        fontsize=8.2, va="top")
-save(fig, "fig1_scenarios.png")
+save(fig, "fig2_scenarios.png")
